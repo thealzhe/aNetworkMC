@@ -1,33 +1,37 @@
 
-# 📰 NA (Nom Abrégé) • V? @thealzhe
+# 📰 aNMC (aNetworkMC) • V0.1 @thealzhe
 
 ### 📃 Prérequis :
-
-- Avoir un(e) repo.
-- Avoir un readme.md.
+```
+- Avoir Java.
+- Être minutieux.
+- Connaitre l'environement de serveurs Minecraft.
+```
 
 ### 📥 Installation :
-
 ```
-1. Avoir une repo.
-2. Copier coller ce readme.md.
+- Un serveur (Linux) ou un PC Windows.
+- Ouvrir les ports TCP/UDP : 25565, 25566, 25567 et 25568
 ```
 
 ### 📥 Configuration :
-
 ```
-Aucune ! 😁
+- Chaque fichier .yml est configurable. Bonne chance ! 🤌🥵
 ```
 
 
 ### ✏️ Choses à faire
-- Aucune ! 😁
+```
+- Sample maps
+```
 
 ### 📹 Previews
-- Aucune ! 😁
+```
+- Aucune ! 🤮
+```
 
 
 ### ©️ thealzhe
 ```
-Aucun détail complémentaire.
+Ceci a été configuré sur PC, par conséquant, des fichiers Windows seront affichés. Je suis un fan, et ce n'est pas du travail 100% optimisé. Aidez moi, je vous crédite !
 ```
