@@ -1,0 +1,332 @@
+# This is the question library used for trivia chat games
+# You can use colorcodes & hex codes (with "&#hexvalue" if your server is running 1.1.6+) in 'question' entries
+# All answers are case insensitive
+trivia-library:
+  1:
+    question: What is the first name of the original creator of Minecraft?
+    answers:
+    - "notch"
+  2:
+    question: What was the second mob ever added to the game?
+    answers:
+    - "skeleton"
+    - "skeletons"
+  3:
+    question: How many iron ingots do you need to craft an anvil?
+    answers:
+    - "31"
+    - "31 iron"
+    - "31 ingots"
+    - "31 iron ingots"
+  4:
+    question: How many iron ingots do you need to craft an Iron Golem?
+    answers:
+    - "36"
+    - "36 iron"
+    - "36 ingots"
+    - "36 iron ingots"
+  5:
+    question: How many mobs spawn in the nether dimension? (as of 1.18)
+    answers:
+    - "11"
+    - "11 mobs"
+    - "eleven"
+    - "eleven mobs"
+  6:
+    question: What mob are creepers scared of?
+    answers:
+    - "ocelot"
+    - "ocelots"
+    - "cat"
+    - "cats"
+  7:
+    question: When do creepers drop music dics?
+    answers:
+    - "when a skeleton kills them"
+    - "when a skeleton shoots them"
+    - "when they are shot by a skeleton"
+    - "when they are killed by a skeleton"
+    - "when they are killed by skeletons"
+    - "when killed by a skeleton"
+    - "when shot by a skeleton"
+  8:
+    question: What update improved oceans and added new sea life?
+    answers:
+    - "1.13"
+    - "update 1.13"
+    - "the aquatic update"
+    - "aquatic"
+    - "aquatic update"
+  9:
+    question: Diamonds spawn at Y level [ ? ] and below
+    answers:
+    - "16"
+    - "sixteen"
+  10:
+    question: How many ore types are in the game as of 1.18?
+    answers:
+    - "10"
+    - "10 types"
+    - "10 ores"
+    - "10 ore types"
+    - "ten"
+    - "ten types"
+    - "ten ores"
+    - "ten ore types"
+  11:
+    question: What's the only mob that spawns naturally in all dimensions?
+    answers:
+    - "endermen"
+    - "enderman"
+  12:
+    question: What programming language is Minecraft written in?
+    answers:
+    - "java"
+  13:
+    question: What year was Minecraft released in?
+    answers:
+    - "2009"
+  14:
+    question: Roughly how many minutes does it take for any baby mobs to grow up?
+    answers:
+    - "20"
+    - "20 mins"
+    - "20 minutes"
+    - "twenty"
+    - "twenty mins"
+    - "twenty minutes"
+  15:
+    question: What drops from beehives when you shear them?
+    answers:
+    - "honeycomb"
+    - "honeycombs"
+    - "honey comb"
+    - "honey combs"
+  16:
+    question: What's the name of the update that added bees to the game?
+    answers:
+    - "buzzy bees"
+  17:
+    question: Which update was ''The Combat Update''?
+    answers:
+    - "1.9"
+    - "update 1.9"
+  18:
+    question: 'True or False: Chests automatically change their texture to represent a present on Christmas'
+    answers:
+    - "true"
+  19:
+    question: A full day-night cycle lasts for [ ? ] minutes
+    answers:
+    - "20"
+    - "twenty"
+  20:
+    question: What biome do foxes spawn in?
+    answers:
+    - "taiga"
+    - "taiga biome"
+    - "the taiga"
+    - "the taiga biome"
+  21:
+    question: What is the only mob that can (sometimes) break obsidian?
+    answers:
+    - "wither"
+    - "withers"
+    - "the wither"
+  22:
+    question: Excluding crafting, how many slots are in your survival inventory? (as of 1.18)
+    answers:
+    - "41"
+    - "41 slots"
+  23:
+    question: Excluding blaze rods/powder, to craft an awkward potion, you need a bottle of [ ? ], and a [ ? ]
+    answers:
+    - "water, nether wart"
+    - "water and nether wart"
+    - "water and nether wart"
+    - "water, nether wart"
+  24:
+    question: Excluding bosses, which mob has the most health?
+    answers:
+    - "iron golem"
+    - "iron golems"
+    - "golem"
+    - "golems"
+  25:
+    question: 'True or False: You can sleep in any dimension'
+    answers:
+    - "false"
+  26:
+    question: What happens when you try to sleep in the nether or end dimension?
+    answers:
+    - "the bed explodes"
+    - "it explodes"
+    - "it blows up"
+    - "the bed blows up"
+    - "your bed explodes"
+    - "your bed blows up"
+    - "you get blown up"
+  27:
+    question: 'True or False: The wither has more health than the ender dragon'
+    answers:
+    - "true"
+  28:
+    question: How many full hearts does the wither have? (answer is between 50-200)
+    answers:
+    - "150"
+  29:
+    question: What are the two names you can give to a mob to turn it upside down?
+    answers:
+    - "dinnerbone, grumm"
+    - "grumm, dinnerbone"
+    - "dinnerbone grumm"
+    - "grumm dinnerbone"
+    - "dinnerbone and grumm"
+    - "grumm and dinnerbone"
+  30:
+    question: What is the longest lasting fuel source you can use for smelting and cooking?
+    answers:
+    - "lava bucket"
+    - "lava buckets"
+    - "bucket of lava"
+    - "buckets of lava"
+  31:
+    question: How many tree types are there that grow naturally in the overworld?
+    answers:
+    - "6"
+    - "six"
+    - "six types"
+    - "6 types"
+  32:
+    question: 'How many seconds does a lava bucket burn for when used as fuel? (hint: answer is a simple number)'
+    answers:
+    - "1000"
+    - "1000 seconds"
+    - "a thousand"
+  33:
+    question: 'True or False: Slimes are unique in that they can be up to 256 x 256 blocks big when spawned with a custom NBT tag'
+    answers:
+    - "true"
+  34:
+    question: What mob is hidden in the 'MINECRAFT' logo?
+    answers:
+    - "creeper"
+    - "a creeper"
+  35:
+    question: What are the dimensions of a chunk? (W x L x H)
+    answers:
+    - "16x16x320"
+    - "16 x 16 x 320"
+  36:
+    question: 'True or False: Minecraft''s moon has the same amount of lunar phases as the moon in real life'
+    answers:
+    - "true"
+  37:
+    question: 'True or False: Spiders attack in daylight'
+    answers:
+    - "false"
+  38:
+    question: 'True or False: There are six kinds of flora that are 2 blocks high'
+    answers:
+    - "false"
+  39:
+    question: 'True or False: Under the pumpkin, snowmen are happy :D'
+    answers:
+    - "true"
+  40:
+    question: How many kinds of sandstone patterns are there? (only whole blocks)
+    answers:
+    - "3"
+    - "three"
+  41:
+    question: The maximum build height as of 1.18 is Y level [ ? ]
+    answers:
+    - "320"
+  42:
+    question: Where did Minecraft originate from?
+    answers:
+    - "sweden"
+  43:
+    question: Which two bow enchantments cannot be on the same bow?
+    answers:
+    - "infinity and mending"
+    - "mending and infinity"
+    - "mending infinity"
+    - "infinity mending"
+    - "mending, infinity"
+    - "infinity, mending"
+  44:
+    question: How many types of blocks are affected by gravity? (as of 1.18)
+    answers:
+    - "5"
+    - "5 blocks"
+    - "five"
+    - "five blocks"
+  45:
+    question: 'True or False: Minecraft worlds are infinite and will keep generating forever'
+    answers:
+    - "false"
+  46:
+    question: Roughly how long does it take to mine obsidian with an unenchanted diamond pickaxe?
+    answers:
+    - "10 seconds"
+    - "ten seconds"
+    - "ten sec"
+    - "ten secs"
+    - "10 sec"
+    - "10 secs"
+  47:
+    question: How many gold/iron/diamonds do you need to craft a full set of armor?
+    answers:
+    - "24"
+  48:
+    question: What Minecraft version was the ender dragon added?
+    answers:
+    - "1.0"
+    - "version 1.0"
+    - "1.0.0"
+    - "version 1.0.0"
+  49:
+    question: How many flowers are in the game as of 1.18? (bushes only count if they have flowers)
+    answers:
+    - "18"
+    - "eighteen"
+  50:
+    question: What are the two places slimes spawn? ([ ? ] and [ ? ])
+    answers:
+    - "swamps and slime chunks"
+    - "slime chunks and swamps"
+    - "swamp biome and slime chunks"
+    - "swamp biomes and slime chunks"
+    - "slime chunks and swamp biomes"
+  51:
+    question: How many different axolotl color variants are there?
+    answers:
+    - "5"
+    - "5 variants"
+    - "five"
+    - "five variants"
+  52:
+    question: What is the rarest axolotl color variant?
+    answers:
+    - "blue"
+  53:
+    question: 'True or False: All axolotl color variants spawn in the world naturally'
+    answers:
+    - "false"
+  54:
+    question: What is the breeding spawn chance for the rarest axolotl color variant? (0.0??%)
+    answers:
+    - ".83"
+    - ".83%"
+    - "0.083"
+    - "0.083%"
+  55:
+    question: What new ore type was added in 1.17?
+    answers:
+    - "copper"
+    - "copper ore"
+  56:
+    question: Amethyst geodes spawn at Y level [ ? ] and below in 1.18
+    answers:
+    - "30"

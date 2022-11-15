@@ -1,0 +1,16 @@
+users:
+  ElgarL:
+    group: Default
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  KHobbits:
+    group: Default
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  snowleo:
+    group: Default
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms

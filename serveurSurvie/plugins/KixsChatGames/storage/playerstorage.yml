@@ -1,0 +1,19 @@
+toggled-off-uuids: []
+leaderboard-hidden-uuids: []
+total-server-wins: 19
+wins:
+  cdaeadc2-fb8b-43ba-bde4-2c31ba70652f:
+    word-unshuffle: 2
+    solve: 6
+    unreverse: 1
+    reverse-word-unshuffle: 2
+    type: 1
+  c9877615-1181-4bb1-a624-a7eec3885b2c:
+    reverse-word-unshuffle: 1
+    trivia: 1
+    unreverse: 1
+    type: 1
+    word-unshuffle: 1
+  2c11fa52-c595-4c52-a882-7e8196aeb538:
+    solve: 1
+    type: 1

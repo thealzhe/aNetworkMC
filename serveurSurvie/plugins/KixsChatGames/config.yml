@@ -1,0 +1,128 @@
+#  _  ___           ____ _           _    ____                           
+# | |/ (_)_  _____ / ___| |__   __ _| |_ / ___| __ _ _ __ ___   ___  ___ 
+# | ' /| \ \/ / __| |   | '_ \ / _` | __| |  _ / _` | '_ ` _ \ / _ \/ __|
+# | . \| |>  <\__ \ |___| | | | (_| | |_| |_| | (_| | | | | | |  __/\__ \
+# |_|\_\_/_/\_\___/\____|_| |_|\__,_|\__|\____|\__,_|_| |_| |_|\___||___/
+#                                                                        
+# by kixmc
+
+# Should the plugin periodically check for new releases any notify operators when the plugin is outdated?
+check-for-updates: false
+
+games:
+
+  # Unscramble a randomly scrambled entry from the game-library
+  unscramble:
+    enabled: true
+    
+    # Should answers need to be in exactly the same case as the question?
+    case-sensitive: true
+  
+  # Type a random entry from the game-library
+  type:
+    enabled: true
+    
+    # Should answers need to be in exactly the same case as the question?
+    case-sensitive: true
+  
+  # Solve a basic math equation (operators: +, -, /)
+  solve:
+    enabled: true
+    
+    # Below is the maximum any parts of math equations will be, the higher this number the harder equations will be to solve
+    # Ensure the range is evenly divisible or else division equations will not occur
+    range: 84
+  
+  # Type a series of random characters from the random-strings alphabet
+  type-random:
+    enabled: true
+    
+    # Should answers need to be in exactly the same case as the question?
+    case-sensitive: true
+    
+    # These are the characters that will be used when generating random strings
+    alphabet: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+  
+    # Minimum and maximum length for the randomly generated strings using the above alphabet
+    min-length: 4
+    max-length: 12
+    
+  # Answer a random trivia question from the plugins trivia-library
+  trivia:
+    enabled: false
+    
+  # Fill in (type only) the missing letters of a randomly blanked out game-library entry
+  fill-in:
+    enabled: true
+    
+    # Should answers need to be in exactly the same case as the question?
+    case-sensitive: true
+    
+    # Should the full word/phrase be accepted as an answer as well as the missing letters?
+    accept-full-entry-as-answer: false
+  
+  # Put the word(s) of a random game-library entry back in the right order
+  word-unshuffle:
+    enabled: true
+    
+     # Should answers need to be in exactly the same case as the question?
+    case-sensitive: true
+    
+  # Put the reversed & shuffled word(s) of a random game-library entry back in the right order
+  reverse-word-unshuffle:
+    enabled: true
+    
+     # Should answers need to be in exactly the same case as the question?
+    case-sensitive: true
+    
+  # Put the reversed game-library entry back in it's right order
+  unreverse:
+    # Enable this game?
+    enabled: true
+
+    # Should answers need to be in exactly the same case as the question?
+    case-sensitive: true
+  
+# Turn this to false if your server does not use a permissions plugin.
+# If true, players will need the permissions "chatgames.see" to see & participate in chat games, and "chatgames.toggle" to toggle seeing games.
+use-game-permissions: true
+
+# At least how many players must be online in order for games to occur?
+minimum-required-players: 1
+
+# Uses built-in processing to determine when players are AFK, and excludes them from counting in the minimum-required-players amount
+exclude-afk-players: true
+
+# In minutes, how often should a chat game occur?
+# Must be longer than the game-lifetime duration
+# Set to -1 to disable (games will only occur if triggered by an admin with /kcg forcestart)
+game-interval: 1
+
+# In seconds, how long should games last before they expire?
+# Must be less than the game-interval duration
+game-lifetime: 40
+
+# The amount of top places shown in the leaderboard command
+leaderboard-rows: 5
+
+# Sounds played by the plugin (pitches can range from 0.0 to 2.0)
+# IMPORTANT: This plugin uses version independent sound names to support MC 1.8 - 1.16+
+# Most modern sound names WILL NOT WORK, use the link below instead!
+# Valid sound names can be found at this link: https://pastebin.com/raw/9NbGd6GF
+# Set any sound value to "none" to disable it.
+sounds:
+  win:
+    sound: "orb_pickup"
+    pitch: 1.4
+  game-start:
+    sound: "chicken_egg_pop"
+    pitch: 2.0
+  nobody-won:
+    sound: "villager_no"
+    pitch: 1.8
+  incorrect-case:
+    sound: "pig_walk"
+    pitch: 2.0
+
+# Prints real time information to the console to help diagnose issues
+debug: false
