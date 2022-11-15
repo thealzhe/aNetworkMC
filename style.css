@@ -1,0 +1,109 @@
+h1    { 
+	letter-spacing: 0.18em; 
+}
+
+h2 {
+	letter-spacing: 0.14em;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+/* Change text */
+.normal {
+	font-family: F77 Minecraft;
+	max-width: 550px;
+    word-wrap: break-word;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+ul {
+	font-family: verdana;
+	max-width: 550px;
+    word-wrap: break-word;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: left;
+}
+
+body {
+	background-image: url('img/grass.jpg');
+	background-repeat: no-repeat;
+	font-family: Minecrafter;
+	color:black;
+	text-align: center;
+	background-color; red;
+}
+
+header {
+	font-family: Minecrafter;
+	color:#ffffff;
+	text-align: center;
+	margin-top: 15px;
+	letter-spacing: 0.10em;
+	text-shadow: 3px 3px black;
+ }
+ 
+@font-face {
+	font-family:"Minecrafter";
+	src:url("Font/Minecrafter_Reg.eot?") 
+	format("eot"),url("Font/Minecrafter_Reg.woff") 
+	format("woff"),url("Font/Minecrafter_Reg.ttf") 
+	format("truetype"),url("Font/Minecrafter_Reg.svg#Minecrafter") 
+	format("svg");font-weight:normal;font-style:normal;
+}
+
+#close-CSS {
+	background-image: url( 'img/sign.png' );
+	background-size: 128px 55px;
+	height: 55px;  
+	width: 128px;
+	font-family: Minecrafter;
+	font-size: 16px;
+	margin-bottom: 35px;
+	border: black;
+}
+
+#close-CSS:hover {
+	-moz-box-shadow: 0 0 10px #ccc;
+	-webkit-box-shadow: 0 0 10px #ccc;
+	box-shadow: 0 0 10px #ccc;
+}
+
+.header {
+text-align: center;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #5575ba;
+   color: white;
+   text-align: center;
+}
+
+#img {
+	position: absolute;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+}	
+
+#text {
+	position: absolute;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 0px;
+}
