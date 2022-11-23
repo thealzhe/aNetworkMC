@@ -1129,3 +1129,51 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
 00:13:32 [INFO] Disabling plugins
 00:13:32 [INFO] Closing IO threads
 00:13:34 [INFO] Thank you and goodbye
+14:52:29 [INFO] Using standard Java JCE cipher.
+14:52:29 [INFO] Using standard Java compressor.
+14:52:29 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:2d369e8:1664
+14:52:29 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+14:52:29 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+14:52:29 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+14:52:29 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+14:52:29 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+14:52:29 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+14:52:29 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:2d369e8:1664 by SpigotMC
+14:52:29 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:2d369e8:1664 by SpigotMC
+14:52:29 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:2d369e8:1664 by SpigotMC
+14:52:29 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:2d369e8:1664 by SpigotMC
+14:52:29 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:2d369e8:1664 by SpigotMC
+14:52:29 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:2d369e8:1664 by SpigotMC
+14:52:29 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:2d369e8:1664 by SpigotMC
+14:52:29 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:2d369e8:1664 by SpigotMC
+14:52:29 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:2d369e8:1664 by SpigotMC
+14:52:29 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:2d369e8:1664 by SpigotMC
+14:52:29 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:2d369e8:1664 by SpigotMC
+14:52:29 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:2d369e8:1664 by SpigotMC
+14:52:30 [INFO] Listening on /0.0.0.0:25565
+14:53:01 [INFO] [/127.0.0.1:56774] <-> InitialHandler has connected
+14:53:02 [INFO] [Alzhe] <-> ServerConnector [hub] has connected
+14:53:06 [INFO] Netty is not using direct IO buffers.
+
+14:53:34 [INFO] [Alzhe] <-> ServerConnector [survie] has connected
+14:53:35 [INFO] [Alzhe] <-> DownstreamBridge <-> [hub] has disconnected
+14:53:46 [INFO] Alzhe executed command: /server hub
+14:53:46 [INFO] [Alzhe] <-> ServerConnector [hub] has connected
+14:53:46 [INFO] [Alzhe] <-> DownstreamBridge <-> [survie] has disconnected
+14:54:32 [INFO] [Alzhe] <-> ServerConnector [survie] has connected
+14:54:32 [INFO] [Alzhe] <-> DownstreamBridge <-> [hub] has disconnected
+14:55:00 [INFO] [Alzhe] -> UpstreamBridge has disconnected
+14:55:00 [INFO] [Alzhe] <-> DownstreamBridge <-> [survie] has disconnected
+14:55:18 [INFO] CONSOLE executed command: /end
+14:55:18 [INFO] Closing listener [id: 0x51c90a5d, L:/[0:0:0:0:0:0:0:0]:25565]
+14:55:18 [INFO] Closing pending connections
+14:55:18 [INFO] Disconnecting 0 connections
+14:55:19 [INFO] Saving reconnect locations
+14:55:19 [INFO] Disabling plugins
+14:55:19 [INFO] Closing IO threads

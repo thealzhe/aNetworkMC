@@ -34,8 +34,8 @@ log_pings: false
 connection_throttle_limit: 3
 server_connect_timeout: 5000
 timeout: 30000
-stats: e5ac5b74-fce7-42e2-b5e7-833ca6bd86a4
 player_limit: -1
+prevent_proxy_connections: false
 ip_forward: true
 groups:
   Alzhe:
@@ -47,7 +47,7 @@ groups:
 remote_ping_timeout: 5000
 connection_throttle: 4000
 log_commands: true
-prevent_proxy_connections: false
+stats: e5ac5b74-fce7-42e2-b5e7-833ca6bd86a4
 online_mode: true
 forge_support: false
 disabled_commands:

@@ -1,6 +1,6 @@
 toggled-off-uuids: []
 leaderboard-hidden-uuids: []
-total-server-wins: 19
+total-server-wins: 20
 wins:
   cdaeadc2-fb8b-43ba-bde4-2c31ba70652f:
     word-unshuffle: 2
@@ -17,3 +17,5 @@ wins:
   2c11fa52-c595-4c52-a882-7e8196aeb538:
     solve: 1
     type: 1
+  eb57380a-004b-4e21-87ba-04ce3a10297f:
+    type-random: 1

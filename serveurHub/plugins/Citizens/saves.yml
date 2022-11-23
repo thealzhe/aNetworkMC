@@ -35,13 +35,13 @@ npc:
         uuid: eb57380a-004b-4e21-87ba-04ce3a10297f
       spawned: true
       location:
-        bodyYaw: 88.88989
+        bodyYaw: 110.12302
         world: hub
         x: '17.5'
         y: '-59.0'
         z: '8.5'
-        yaw: '88.8899'
-        pitch: '7.8043'
+        yaw: '91.8394'
+        pitch: '-8.3038'
       age:
         age: 0
         locked: true
@@ -66,7 +66,7 @@ npc:
       hologramtrait:
         direction: BOTTOM_UP
         lineHeight: -1.0
-    traitnames: spawned,scoreboardtrait,lookclose,mounttrait,skintrait,inventory,hologramtrait,smoothrotationtrait,commandtrait,type,age,location,owner
+    traitnames: location,commandtrait,inventory,skintrait,spawned,type,mounttrait,owner,hologramtrait,scoreboardtrait,age,lookclose,smoothrotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -96,13 +96,13 @@ npc:
       owner:
         uuid: eb57380a-004b-4e21-87ba-04ce3a10297f
       location:
-        bodyYaw: 11.603004
+        bodyYaw: 54.43332
         world: hub
         x: '16.507'
         y: '-59.0'
         z: '3.475'
-        yaw: '11.603'
-        pitch: '11.6317'
+        yaw: '54.4333'
+        pitch: '11.943'
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
@@ -132,7 +132,7 @@ npc:
       age:
         age: 0
         locked: true
-    traitnames: spawned,scoreboardtrait,lookclose,mounttrait,commandtrait,smoothrotationtrait,skintrait,inventory,type,age,location,owner
+    traitnames: spawned,type,location,commandtrait,mounttrait,owner,inventory,age,scoreboardtrait,lookclose,smoothrotationtrait,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -162,13 +162,13 @@ npc:
       owner:
         uuid: eb57380a-004b-4e21-87ba-04ce3a10297f
       location:
-        bodyYaw: 118.267
+        bodyYaw: 129.10373
         world: hub
         x: '16.513'
         y: '-59.0'
         z: '13.492'
-        yaw: '153.267'
-        pitch: '11.6771'
+        yaw: '164.1037'
+        pitch: '-3.0301'
       hologramtrait:
         direction: BOTTOM_UP
         lineHeight: -1.0
@@ -201,7 +201,7 @@ npc:
         cooldowns:
           eb57380a-004b-4e21-87ba-04ce3a10297f:
             lastUsedId: 0
-    traitnames: spawned,scoreboardtrait,lookclose,mounttrait,skintrait,inventory,hologramtrait,commandtrait,smoothrotationtrait,type,age,location,owner
+    traitnames: location,commandtrait,inventory,skintrait,spawned,type,mounttrait,owner,hologramtrait,age,scoreboardtrait,lookclose,smoothrotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
